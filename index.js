@@ -1,24 +1,3 @@
-// const express = require('express')
-// const { parseIcsFile } = require('./icsHelpers')
-// const app = express()
-// const port = 3000
-
-// app.get('/', (req, res) => {
-//   res.send('Hello World!')
-// })
-
-// parseIcsFile('path/to/your/file.ics')
-//   .then(events => {
-//     console.log(events);
-//   })
-//   .catch(err => {
-//     console.error(err);
-//   });
-
-// app.listen(port, () => {
-//   console.log(`Example app listening on port ${port}`)
-// })
-
 const express = require('express');
 const { findBestCombination } = require('./icsHelpers');
 const app = express();
